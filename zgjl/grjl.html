@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人简历</title>
+    <link rel="shortcut icon" href="./QQ截图20190522193632.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background: #3C3C3C;
+        }
+
+        /* 主体 */
+        .zt {
+            background: #ffffff;
+            width: 1000px;
+            height: 1100px;
+            margin: 0 auto;
+
+        }
+
+        /* 左边 */
+        .zb {
+            width: 400px;
+            height: 100%;
+            float: left;
+            background: #E8E6E7;
+            position: relative;
+        }
+
+        .xm {
+            font-size: 30px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 160px;
+            margin-top: 50px;
+        }
+
+        .nl {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 140px;
+            margin-top: 10px;
+        }
+
+        .jg {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 60px;
+            margin-top: 50px;
+        }
+
+        .lxfs {
+            font-size: 20px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 150px;
+            margin-top: 80px;
+
+        }
+
+        /* 联系方式 Contact  */
+        .img1 {
+            position: absolute;
+            left: 35px;
+            top: 247px;
+        }
+
+        .dh {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 60px;
+        }
+
+        .img2 {
+            position: absolute;
+            left: 60px;
+            top: 350px;
+        }
+
+        .yx {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .img3 {
+            position: absolute;
+            left: 59px;
+            top: 387px;
+        }
+
+        .qq {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .img4 {
+            position: absolute;
+            left: 58px;
+            top: 414px;
+        }
+
+        .wx {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .img5 {
+            position: absolute;
+            left: 58px;
+            top: 446px;
+        }
+
+        /* 资格证书 Certificates */
+        .img6 {
+            position: absolute;
+            left: 35px;
+            top: 500px;
+        }
+
+        .zgzs {
+            font-size: 20px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 150px;
+            margin-top: 60px;
+        }
+
+        .jsj {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 90px;
+            margin-top: 52px;
+        }
+
+        .img7 {
+            position: absolute;
+            left: 65px;
+            top: 610px;
+        }
+
+        .gjg {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 90px;
+            margin-top: 10px;
+        }
+
+        .img8 {
+            position: absolute;
+            left: 65px;
+            top: 640px;
+        }
+
+        /* 兴趣爱好 Hobbies */
+        .img9 {
+            position: absolute;
+            left: 35px;
+            top: 685px;
+        }
+
+        .xqah {
+            font-size: 20px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 150px;
+            margin-top: 60px;
+        }
+
+        .img10 {
+            position: absolute;
+            left: 65px;
+            top: 790px;
+        }
+
+        .yy {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 45px;
+        }
+
+        .img11 {
+            position: absolute;
+            left: 65px;
+            top: 820px;
+        }
+
+        .dy {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .img12 {
+            position: absolute;
+            left: 65px;
+            top: 850px;
+        }
+
+        .yd {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        /* 求职意向 Objectives */
+        .img13 {
+            position: absolute;
+            left: 35px;
+            top: 895px;
+        }
+
+        .qzyx {
+            font-size: 20px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 150px;
+            margin-top: 60px;
+        }
+
+        .img14 {
+            position: absolute;
+            left: 65px;
+            top: 1000px;
+        }
+
+        .qzdd {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 43px;
+        }
+
+        .img15 {
+            position: absolute;
+            left: 65px;
+            top: 1030px;
+        }
+
+        .qzzw {
+            font-size: 15px;
+            color: black;
+            background: #E8E6E7;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        /* 右边 */
+        .yb {
+            width: 600px;
+            height: 100%;
+            float: left;
+            background: #ffffff;
+            position: relative;
+        }
+
+        /* 头像 */
+        .tx {
+            width: 200px;
+            height: 200px;
+            /* background: red; */
+            border-radius: 50%;
+            background-image: url("./QQ截图20190522193632.png");
+            position: absolute;
+            left: 200px;
+            top: 20px;
+        }
+
+        /* 教育背景 Educational Background */
+        .img16 {
+            position: absolute;
+            left: 35px;
+            top: 245px;
+        }
+
+        .jybj {
+            font-size: 20px;
+            color: black;
+            background: #ffffff;
+            margin-left: 155px;
+            margin-top: 270px;
+        }
+
+        .zyxx {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 65px;
+        }
+
+        .qcxbysj {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 430px;
+            margin-top: -20px;
+        }
+
+        .qcx {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 1px;
+        }
+
+        .syjy {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 35px;
+        }
+
+        .syjysj {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 430px;
+            margin-top: -20px;
+        }
+
+        .web {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 1px;
+        }
+
+        /* 工作经历 Work Experience */
+        .img17 {
+            position: absolute;
+            left: 35px;
+            top: 500px;
+        }
+
+        .gzjl {
+            font-size: 20px;
+            color: black;
+            background: #ffffff;
+            margin-left: 155px;
+            margin-top: 50px;
+        }
+
+        .fzsjg {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 35px;
+        }
+
+        .fzsjgsj {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 430px;
+            margin-top: -20px;
+        }
+
+        .fzsjgzw {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 1px
+        }
+
+        .qxgz {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 35px;
+        }
+
+        .qxgzsj {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 430px;
+            margin-top: -20px;
+        }
+
+        .qxgzzw {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 1px
+        }
+
+        /* 个人介绍 Profile */
+        .img18 {
+            position: absolute;
+            left: 35px;
+            top: 750px;
+        }
+
+        .grjs {
+            font-size: 20px;
+            color: black;
+            background: #ffffff;
+            margin-left: 155px;
+            margin-top: 75px;
+        }
+
+        .grjsxxnr {
+            font-size: 15px;
+            color: black;
+            background: #ffffff;
+            margin-left: 70px;
+            margin-top: 35px;
+        }
+    </style>
+</head>
+<div class="zt">
+    <div class="zb">
+        <div class="xm">倪翔</div>
+        <div class="nl">20岁&nbsp;&nbsp;江苏无锡</div>
+        <div class="jg">汉族&nbsp;|&nbsp;未婚 &nbsp;|&nbsp;共青团员&nbsp;|&nbsp;籍贯&nbsp;江苏&nbsp;靖江</div>
+        <!-- 联系方式 Contact -->
+        <img class="img1" src="./QQ截图20190522181927.png" alt="">
+        <div class="lxfs"> 联系方式 Contact</div>
+        <img class="img2" src="./QQ截图20190522183117.png" alt="">
+        <div class="dh">13812156376</div>
+        <img class="img3" src="./QQ截图20190522183129.png" alt="">
+        <div class="yx">2625725612@qq.com</div>
+        <img class="img4" src="./QQ截图20190522183140.png" alt="">
+        <div class="qq">2625725612</div>
+        <img class="img5" src="./QQ截图20190522183148.png" alt="">
+        <div class="wx">13812156376</div>
+        <!-- 资格证书 Certificates -->
+        <img class="img6" src="./QQ截图20190522184551.png" alt="">
+        <div class="zgzs">资格证书 Certificates</div>
+        <img class="img7" src="./QQ截图20190522184606.png" alt="">
+        <div class="jsj">《全国计算机等级考试2级 A》</div>
+        <img class="img8" src="./QQ截图20190522184606.png" alt="">
+        <div class="gjg">《高级工证书》</div>
+        <!-- 兴趣爱好 Hobbies -->
+        <img class="img9" src="./QQ截图20190522190149.png" alt="">
+        <div class="xqah">兴趣爱好 Hobbies</div>
+        <img class="img10" src="./QQ截图20190522184606.png" alt="">
+        <div class="yy">音乐</div>
+        <img class="img11" src="./QQ截图20190522184606.png" alt="">
+        <div class="dy">电影</div>
+        <img class="img12" src="./QQ截图20190522184606.png" alt="">
+        <div class="yd">阅读</div>
+        <!-- 求职意向 Objectives -->
+        <img class="img13" src="./QQ截图20190522190203.png" alt="">
+        <div class="qzyx">求职意向 Objectives</div>
+        <img class="img14" src="./QQ截图20190522184606.png" alt="">
+        <div class="qzdd">期望地点:&nbsp;无锡市、苏州市</div>
+        <img class="img15" src="./QQ截图20190522184606.png" alt="">
+        <div class="qzzw">期望职位:&nbsp;web前端开发</div>
+    </div>
+    <div class="yb">
+        <!-- 头像 -->
+        <div class="tx"></div>
+        <!-- 教育背景 Educational Background -->
+        <img class="img16" src="./QQ截图20190522193919.png" alt="">
+        <div class="jybj">教育背景 Educational Background</div>
+        <div class="zyxx">江苏省无锡交通高等职业技术学校&nbsp;·&nbsp;本科</div>
+        <div class="qcxbysj">2013-09&nbsp;至&nbsp;2018-06</div>
+        <div class="qcx">汽车工程学院&nbsp;·&nbsp;汽车检测与维修</div>
+        <div class="syjy">上元教育</div>
+        <div class="syjysj">2019-03&nbsp;至&nbsp;2019-08</div>
+        <div class="web">web全栈开发</div>
+        <!-- 工作经历 Work Experience -->
+        <img class="img17" src="./QQ截图20190522202103.png" alt="">
+        <div class="gzjl">工作经历 Work Experience</div>
+        <div class="fzsjg">靖江高登服装厂&nbsp;·&nbsp;主管</div>
+        <div class="fzsjgsj">2013-09&nbsp;至&nbsp;2018-06</div>
+        <div class="fzsjgzw">服装修剪-熨烫-包装-物流-出货</div>
+        <div class="qxgz">无锡天一吉利汽车修配厂&nbsp;·&nbsp;汽修工</div>
+        <div class="qxgzsj">2017-10&nbsp;至&nbsp;2018-06</div>
+        <div class="qxgzzw">汽车保养及维护相关</div>
+        <!-- 个人介绍 Profile -->
+        <img class="img18" src="./QQ截图20190522193943.png" alt="">
+        <div class="grjs">个人介绍 Profile</div>
+        <div class="grjsxxnr">人际关系很好，喜欢羽毛球、音乐、看书；完成了各项学习、实习（认识实<br>习、暑假实践、专业实习），积极投身于各种学院及社交活动，从不同层次<br>、不同角度锻炼自己。</div>
+
+
+
+
+    </div>
+
+</div>
+
+<body>
+
+</body>
+
+</html>
